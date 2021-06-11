@@ -1,9 +1,3 @@
-html {
-  overflow-x: hidden;
-  position: relative;
-  width: 100%;
-}
-
 body {
   color: #9fa5a6;
   background-color: #0d1921;
@@ -13,10 +7,12 @@ body {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
 }
 
 header {
-  z-index: 1;
+  top: 0;
+  z-index: 2;
   width: 100%;
   background-color: #212d35;
 }
@@ -153,7 +149,7 @@ header {
   width: 100%;
 }
 
-.people a:hover {
+.people > a:hover {
   background-color: #ffffff2d;
 }
 
@@ -245,18 +241,15 @@ header {
 }
 
 .type {
+  bottom: 10px;
+  z-index: 1;
   width: 98%;
-}
-
-.bar,
-.send {
-  margin-top: 580px;
 }
 
 .bar {
   width: 83%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #212d35;
   border-radius: 50px;
 }
 
@@ -266,7 +259,9 @@ header {
 }
 
 .bar .text {
+  margin-top: 10px;
   width: 53%;
+  font-size: 15px;
 }
 
 .send {
@@ -279,4 +274,8 @@ header {
   border-radius: 50%;
   color: #ffffff;
   font-size: 25px;
+}
+
+.info {
+  margin-top: 70px;
 }
