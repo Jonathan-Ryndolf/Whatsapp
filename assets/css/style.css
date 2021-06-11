@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   color: #9fa5a6;
   background-color: #0d1921;
@@ -7,7 +11,7 @@ body {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
+  position: relative;
 }
 
 header {
@@ -179,11 +183,13 @@ header {
 .profile h1 {
   color: #ffffff;
   font-size: 18px;
+  margin-bottom: 0;
 }
 
 .profile h2 {
   font-size: 15px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .profile .time {
@@ -278,4 +284,11 @@ header {
 
 .info {
   margin-top: 70px;
+}
+
+.circle-avatar img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #009f8c;
+  border-width: 3px;
 }
