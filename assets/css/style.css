@@ -6,69 +6,26 @@
 
 html {
   box-sizing: border-box;
-  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
   background-color: #000;
-  background-repeat: repeat;
-  background-size: cover;
-}
-
-.page {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.marvel-device .screen {
-  text-align: left;
-}
-
-/* Status Bar */
-
-.status-bar {
-  height: 25px;
-  background: #004e45;
-  color: #fff;
-  font-size: 14px;
-  padding: 0 8px;
-}
-
-.status-bar:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.status-bar div {
-  float: right;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 0 0 8px;
-  font-weight: 600;
 }
 
 /* Chat */
 
-.chat {
+/* .chat {
   height: calc(100% - 69px);
 }
 
 .chat-container {
   height: 100%;
-}
+} */
 
 /* User Bar */
 
@@ -154,6 +111,8 @@ body {
   position: relative;
   background: url("https://wallpaperaccess.com/full/2224368.png") repeat;
   z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .conversation ::-webkit-scrollbar {
@@ -301,14 +260,12 @@ body {
   align-items: flex-end;
   overflow: hidden;
   height: 40px;
-  width: 100%;
   z-index: 2;
 }
 
 .conversation-compose div,
 .conversation-compose input {
   background: #fff;
-  height: 100%;
 }
 
 .conversation-compose .emoji {
@@ -379,24 +336,8 @@ body {
 
 .conversation-compose .send .circle i {
   font-size: 20px;
-  margin-top: 1px;
-  margin-left: 2px;
-}
-
-@media and screen and (max-width: 400px) {
-  div {
-    width: 100%;
-  }
-}
-@media and screen and (min-width: 400px) and (max-width: 1024px) {
-  div {
-    width: 80%;
-  }
-}
-@media and screen and (min-width: 1024px) {
-  div {
-    width: 60%;
-  }
+  margin-top: 0.5px;
+  margin-left: 5px;
 }
 
 /* Small Screens */
