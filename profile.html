@@ -22,16 +22,28 @@
     href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
     rel="stylesheet"
   />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
 </head>
-<body>
+<body class="profile-bg">
   <main>
     <!-- ======= Header ======= -->
-    <header class="header1 d-flex" >
-        <div class="left mr-auto">WhatsApp</div>
+    <header class="header1 d-flex position-fixed" >
+        <div class="left d-flex mr-auto profilesub">
+          <a href="index.html">
+          <i class="icofont-arrow-left"></i>
+        </a>
+          <div class="avatar">
+            <img src="assets/img/Discord DP/office.jpg">
+          </div>
+          <div class="subject">
+            <h1>The Office</h1>
+            <h2>Hello</h2>
+          </div>
+        </div>
         <div class="right d-flex">
-          <div class="icofont-search-1"></div>
+          <div class="zmdi zmdi-phone"></div>
           <div class="dots">
             <div class="dot"></div>
             <div class="dot"></div>
@@ -39,41 +51,26 @@
           </div>
         </div>
     </header>
-    <header class="header2 d-flex">
-      <i class="icofont-camera"></i>
-      <nav class="nav-menu">
-        <ul>
-          <li href="index.html"><a href="index.html">Chats</a></li>
-          <li><a href="status.html">Status</a></li>
-          <li class="active"><a href="calls.html">Calls</a></li>
-        </ul>
-      </nav>
-    </header>
     <!-- End Header -->
 
-    <!-- ======= Profile list ======= -->
-    <div class="people">
-
-    <a href="profile.html">
-      <div class="profile">
-        <div class="avatar">
-          <img src="assets/img/Discord DP/office.jpg">
-        </div>
-        <div class="content">
-          <div class="text d-flex">
-          <div class="subject mr-auto">
-            <h1>The Office</h1>
-            <h2>Hello</h2>
-          </div>
-          <div class="time">12:00 AM</div>
-        </div>
-        <div class="line"></div>
-      </div>
-    </a>
-
-
+    <!-- ======= Chats ======= -->
+    <div class="coversations">
     </div>
-  <!-- End Profile list -->
+  <!-- End Chats -->
+
+  <!-- ======= Type ======= -->
+  <div class="type d-flex ml-2 position-fixed">
+    <div class="bar d-flex mr-2">
+      <i class="icofont-simple-smile"></i>
+      <div class="text"></div>
+      <i class="icofont-paper-clip" style="transform: rotate(-90deg);"></i>
+      <i class="icofont-camera"></i>
+    </div>
+    <div class="send">
+      <i class="zmdi zmdi-mail-send"></i>
+    </div>
+  </div>
+  <!-- End Type -->
 
   </main>
   <!-- Vendor JS Files -->
