@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Monospace&display=swap");
-
 html {
   overflow-x: hidden;
   position: relative;
@@ -7,6 +5,7 @@ html {
 }
 
 body {
+  color: #9fa5a6;
   background-color: #0d1921;
 }
 
@@ -14,32 +13,22 @@ header {
   background-color: #212d35;
 }
 
-.header-top {
-  width: 100%;
-}
-
-.header-top .left {
+.header1 .left {
   font-weight: 600;
-  color: #9fa5a6;
   font-size: 20px;
   padding: 10px;
 }
 
-.header-top .icofont-search-1:hover,
-.header-top .dots:hover {
+.header1 .icofont-search-1:hover,
+.header1 .dots:hover {
   border-radius: 50%;
   background-color: #ffffff27;
 }
 
-.header-top .right {
+.header1 .right {
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 0;
-}
-
-.dots {
-  width: 50px;
 }
 
 .dots,
@@ -48,8 +37,19 @@ header {
 }
 
 .icofont-search-1 {
+  transition: ease-in-out 0.2s;
   font-size: 20px;
-  color: #9fa5a6;
+}
+
+.dots {
+  transition: ease-in-out 0.2s;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transform: rotate(90deg);
 }
 
 .dot {
@@ -63,17 +63,20 @@ header {
   background-color: #9fa5a6;
 }
 
-header i {
+.header2 {
+  justify-content: space-between;
+}
+
+.header2 i {
   transition: ease-in-out 0.2s;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #9fa5a6;
   padding: 10px;
   font-size: 30px;
 }
 
-header i:hover {
+.header2 i:hover {
   background-color: #ffffff27;
 }
 
@@ -85,6 +88,7 @@ header i:hover {
 }
 
 .nav-menu li {
+  transition: ease-in-out 0.2s;
   position: relative;
   padding-top: 10px;
   padding-bottom: 15px;
@@ -93,8 +97,8 @@ header i:hover {
 }
 
 .nav-menu a {
-  transition: ease-in-out 0.2s;
   color: #9fa5a6;
+  transition: ease-in-out 0.2s;
   text-decoration: none;
   text-transform: uppercase;
   display: flex;
@@ -119,4 +123,67 @@ header i:hover {
   bottom: 0;
   left: 0;
   background-color: #009f8c;
+}
+
+.profile {
+  transition: ease-in-out 0.2s;
+  display: flex;
+}
+
+.people a {
+  text-decoration: none;
+  color: #9fa5a6;
+  display: flex;
+  width: 100%;
+}
+
+.people a:hover {
+  background-color: #ffffff2d;
+}
+
+.content {
+  width: 100%;
+}
+
+.profile .avatar {
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.profile .avatar img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.subject {
+  margin: auto 0;
+}
+
+.text {
+  height: 100%;
+}
+
+.profile h1 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.profile h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.profile .time {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.line {
+  width: 95%;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #ffffff25;
 }
