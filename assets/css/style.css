@@ -149,7 +149,7 @@ header {
   width: 100%;
 }
 
-.people > a:hover {
+.people a:hover {
   background-color: #ffffff2d;
 }
 
