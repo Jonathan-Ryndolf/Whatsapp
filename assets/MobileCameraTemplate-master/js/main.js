@@ -13,7 +13,7 @@ var takePhotoButton;
 var toggleFullScreenButton;
 var switchCameraButton;
 var amountOfCameras = 0;
-var currentFacingMode = 'environment';
+var currentFacingMode = 'user';
 
 // this function counts the amount of video inputs
 // it replaces DetectRTC that was previously implemented.
@@ -137,8 +137,8 @@ function initCameraUI() {
     switchCameraButton.style.display = 'block';
 
     switchCameraButton.addEventListener('click', function () {
-      if (currentFacingMode === 'user') currentFacingMode = 'environment';
-      else currentFacingMode = 'user';
+      if (currentFacingMode === 'environment') currentFacingMode = 'user';
+      else currentFacingMode = 'environment';
 
       initCameraStream();
     });
