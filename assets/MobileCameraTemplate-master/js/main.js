@@ -137,8 +137,8 @@ function initCameraUI() {
     switchCameraButton.style.display = 'block';
 
     switchCameraButton.addEventListener('click', function () {
-      if (currentFacingMode === 'environment') currentFacingMode = 'user';
-      else currentFacingMode = 'environment';
+      if (currentFacingMode === 'user') currentFacingMode = 'environment';
+      else currentFacingMode = 'user';
 
       initCameraStream();
     });
