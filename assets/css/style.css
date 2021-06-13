@@ -124,7 +124,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 600;`
+  font-weight: 600;
 }
 
 .nav-menu .active a {
@@ -308,9 +308,9 @@ header {
 
 .info button {
   font-weight: 600;
-  padding: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin: 20px;
   border-radius: 10px;
   color: #ffffffc4;
@@ -318,7 +318,8 @@ header {
   border-style: none;
 }
 
-.convo-left, .convo-right {
+.convo-left,
+.convo-right {
   margin-bottom: 15px;
 }
 
@@ -328,8 +329,11 @@ header {
   color: #ffffff;
   border-radius: 10px;
   padding: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   width: fit-content;
   height: fit-content;
+  position: relative;
 }
 
 .convo-left {
@@ -383,4 +387,20 @@ header {
   height: 20px;
   background-color: #056062;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.convo-left img,
+.convo-right img {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 5px;
+}
+
+.over {
+  position: absolute;
+  color: #ffffff !important;
+  right: 0;
+  bottom: 0;
+  margin-right: 16px;
+  margin-bottom: 8px;
 }
