@@ -4,14 +4,16 @@ html {
 
 body {
   color: #9fa5a6;
-  background-color: #0d1921;
 }
 
 .profile-bg {
+  top: 0;
+  height: 100%;
+  width: 100%;
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: fixed;
 }
 
 header {
@@ -251,6 +253,7 @@ header {
 }
 
 .type {
+  background-color: #0d1921;
   bottom: 10px;
   z-index: 1;
   width: 98%;
