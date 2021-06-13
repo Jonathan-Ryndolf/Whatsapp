@@ -4,6 +4,11 @@ body {
   background: #000;
 }
 
+video {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 #vid_container {
   position: fixed;
   top: 0;
