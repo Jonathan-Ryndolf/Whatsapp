@@ -36,7 +36,7 @@ header {
 
 .header1 .icofont-search-1:hover,
 .header1 .dots:hover,
-.right .zmdi-phone:hover {
+.zmdi-phone:hover {
   border-radius: 50%;
   background-color: #ffffff27;
 }
@@ -49,17 +49,17 @@ header {
 
 .dots,
 .icofont-search-1,
-.right .zmdi-phone {
+.zmdi-phone {
   padding: 10px;
 }
 
-.right .zmdi-phone {
+.zmdi-phone {
   margin-top: 2px;
   padding-right: 15px;
 }
 
 .icofont-search-1,
-.right .zmdi-phone {
+.zmdi-phone {
   transition: ease-in-out 0.2s;
   font-size: 20px;
 }
@@ -221,6 +221,7 @@ header {
   height: 88px;
   display: block;
   text-decoration: none;
+  transition: ease-in-out 0.2s;
 }
 
 .proclick:hover {
@@ -323,11 +324,6 @@ header {
   clip-path: circle(45% at 50% 50%);
 }
 
-.calls .zmdi-phone {
-  font-size: 20px;
-  color: #009f8c;
-}
-
 .info {
   margin-top: 65px;
 }
@@ -417,7 +413,7 @@ header {
 
 .convo-left img,
 .convo-right img {
-  width: 250px;
+  width: 280px;
   height: auto;
   padding-bottom: 5px;
 }
