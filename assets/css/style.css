@@ -153,6 +153,7 @@ header {
 }
 
 .profile {
+  width: 100%;
   transition: ease-in-out 0.2s;
   display: flex;
 }
@@ -168,7 +169,7 @@ header {
   background-color: #ffffff2d;
 }
 
-.content {
+.stuff {
   width: 100%;
 }
 
@@ -181,14 +182,6 @@ header {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-}
-
-.subject {
-  margin: auto 0;
-}
-
-.text {
-  height: 100%;
 }
 
 .profile h1 {
@@ -206,15 +199,34 @@ header {
 .profile .time {
   font-size: 13px;
   font-weight: 500;
-  margin-top: 15px;
-  margin-right: 10px;
 }
 
 .line {
-  width: 95%;
+  float: right;
+  width: 75%;
   height: 2px;
   border-radius: 1px;
   background-color: #ffffff25;
+}
+
+.clickables {
+  /* padding-left: 80px; */
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.proclick {
+  height: 88px;
+  display: block;
+  text-decoration: none;
+}
+
+.proclick:hover {
+  background-color: #ffffff15;
+  height: 88px;
+  display: block;
+  text-decoration: none;
 }
 
 .profilesub {
