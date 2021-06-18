@@ -5,14 +5,9 @@ function checker() {
     document.getElementById("checker").classList.add("deactive");
   }
 
-  // if (document.getElementById("clickbox").style.color == "#ffffff") {
-  //   document.getElementById("clickbox").style.color = "#000000";
-  // } else {
-  //   document.getElementById("clickbox").style.color = "#ffffff";
-  // }
-}
-
-function agree() {
-  document.getElementById("terms").classList.add("d-none");
-  document.getElementById("terms-bg").classList.add("d-none");
+  if (document.getElementById("clickbox").classList.contains("clickcolor")) {
+    document.getElementById("clickbox").classList.remove("clickcolor");
+  } else {
+    document.getElementById("clickbox").classList.add("clickcolor");
+  }
 }

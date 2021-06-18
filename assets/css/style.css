@@ -495,11 +495,15 @@ header {
   justify-content: center;
 }
 
-.icofont-check:before {
-  /* padding-left: 1px;
-  padding-right: 1px; */
+.icofont-check {
+  color: #000000;
   font-size: 30px;
   background-color: #ffffff;
+  border-style: none;
+}
+
+.clickcolor {
+  color: #ffffff !important;
 }
 
 .btn {
