@@ -446,16 +446,15 @@ header {
 }
 
 .raksha-pic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
   background-image: url("../img/status/raksha.jpg");
+}
+
+.abi-pic {
+  background-image: url("../img/status/abi.jpg");
+}
+
+.vero-pic {
+  background-image: url("../img/status/vero.jpg");
 }
 
 .over-opacity {
