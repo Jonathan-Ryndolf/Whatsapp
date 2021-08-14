@@ -458,6 +458,10 @@ header {
   background-image: url("../img/status/vero.jpg");
 }
 
+.fabian-pic {
+  background-image: url("../img/status/fabian.jpg");
+}
+
 .over-opacity {
   background-color: #00000015;
   position: absolute;
