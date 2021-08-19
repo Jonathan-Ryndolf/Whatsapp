@@ -462,6 +462,10 @@ header {
   background-image: url("../img/status/fabian.jpg");
 }
 
+.subi-pic {
+  background-image: url("../img/status/subi.jpg");
+}
+
 .over-opacity {
   background-color: #00000015;
   position: absolute;
