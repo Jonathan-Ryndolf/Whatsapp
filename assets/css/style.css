@@ -532,8 +532,3 @@ header {
   text-transform: uppercase;
   border-radius: 20px;
 }
-
-.deactive {
-  pointer-events: none;
-  opacity: 0.2;
-}
