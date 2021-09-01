@@ -466,6 +466,10 @@ header {
   background-image: url("../img/status/subi.jpg");
 }
 
+.jesin-pic {
+  background-image: url("../img/status/jesin.jpg");
+}
+
 .over-opacity {
   background-color: #00000015;
   position: absolute;
