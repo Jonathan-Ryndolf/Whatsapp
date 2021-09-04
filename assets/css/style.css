@@ -470,6 +470,18 @@ header {
   background-image: url("../img/status/jesin.jpg");
 }
 
+.braighta-pic {
+  background-image: url("../img/status/braighta.jpg");
+}
+
+.joshua-pic {
+  background-image: url("../img/status/joshua.jpg");
+}
+
+.ryndolf-pic {
+  background-image: url("../img/status/ryndolf.jpg");
+}
+
 .over-opacity {
   background-color: #00000015;
   position: absolute;
